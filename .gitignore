@@ -1,0 +1,62 @@
+# ── 敏感信息 / 密钥 / 凭据（永不提交）──────────────────────────
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_rsa.*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+.npmrc
+.pypirc
+.netrc
+.htpasswd
+credentials.json
+secret.yaml
+secret.yml
+*application-prod*.yml
+*application-prod*.yaml
+*.db
+*.sqlite
+*.sqlite3
+
+# ── 依赖与构建产物 ──────────────────────────────────────────
+node_modules/
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── 编辑器 / IDE ───────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── 操作系统 ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── 日志与临时文件 ──────────────────────────────────────────
+*.log
+*.tmp
+*.bak
